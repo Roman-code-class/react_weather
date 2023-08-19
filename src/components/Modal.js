@@ -1,3 +1,5 @@
+// Добавил пока для примера - по клику открывалась модалка
+
 import React, { useState } from "react";
 import { Button, Modal } from "antd";
 const ModalWeather = () => {
