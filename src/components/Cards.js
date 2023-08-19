@@ -2,6 +2,7 @@ import React from "react";
 import { Card } from "antd";
 import S from "../png_svg/Солнце.png";
 import "../degrees.scss";
+import LoggingButton from "./Click";
 
 // const { Meta } = Card;
 const CardsImg = () => (
@@ -19,7 +20,7 @@ const CardsImg = () => (
     <h3 className="degrees">+23</h3>
     {/* <Meta title="Kaluga" description="19.08.23" /> */}
     <p className="text">Kaluga</p>
-    <button className="btn">Сегодня</button>
+    <LoggingButton />
   </Card>
 );
 export default CardsImg;
